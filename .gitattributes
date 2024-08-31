@@ -1,0 +1,16 @@
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+CHANGELOG.md export-ignore
+
+# Definir arquivos de texto para usar fins de linha nativos
+* text=auto
+
+# Definir arquivos PHP para usar LF
+*.php text eol=lf
+
+# Definir outros tipos de arquivos conforme necessário
+*.sh text eol=lf
+*.bat text eol=crlf
+
