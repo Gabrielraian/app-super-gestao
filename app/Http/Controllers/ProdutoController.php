@@ -40,6 +40,7 @@ class ProdutoController extends Controller
      */
     public function store(Request $request)
     {
+        dd('aoba');
         $regras = [
             'nome' => 'required|min:3|max:40',
             'descricao' => 'required|min:3|max:2000',
